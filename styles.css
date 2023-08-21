@@ -1,0 +1,31 @@
+/* Montserrat font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Apply Montserrat font to elements */
+body, h1, p {
+  font-family: 'Montserrat', sans-serif;
+}
+/* body {
+    background-image: url("assets/dark-blurred-background.avif");
+  } */
+.navbar-size {
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkgreen; 
+}
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+}
+.main-body {
+    background-color: #FFF5C3; 
+    color: black;
+}
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+.click-me-button {
+    background-color: darkgreen;
+    margin-top: 50px;
+}

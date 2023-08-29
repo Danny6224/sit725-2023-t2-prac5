@@ -1,21 +1,19 @@
 {
   "name": "task-3.2p",
   "version": "1.0.0",
+  "description": "",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.8",
     "express": "^4.18.2",
-    "mongodb": "^4.17.0"
-  },
-  
-  "bugs": {
-    "url": "https://github.com/Danny6224/sit725-2023-t2-prac3_/issues"
-  },
-  "homepage": "https://github.com/Danny6224/sit725-2023-t2-prac3_#readme",
-  "description": ""
+    "mocha": "^10.2.0",
+    "mongodb": "^4.17.0",
+    "request": "^2.88.2"
+  }
 }
